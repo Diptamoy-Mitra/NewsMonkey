@@ -175,7 +175,7 @@ export class News extends Component {
     console.log("render")
     return (
       <div className='container my-3' >
-        <h1 className="text-center" style={{ margin: '35px 0px' }}>
+        <h1 className="text-center" style={{ margin: '35px 0px' ,marginTop:'90px'}}>
           NewsMonkey - Top  {this.capitalizeFirstLetter(this.props.category)} Headlines
         </h1>
 
